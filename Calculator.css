@@ -1,0 +1,24 @@
+    #Layout {
+    -fx-background-color: lightgrey; /* Set the background colour to light grey */
+    -fx-grid-lines-visible: false; 
+    -fx-hgap: 10;  
+    -fx-vgap: 10; 
+    -fx-padding: 5; 
+}
+
+#Buttons {
+    -fx-pref-columns: 3; /* Changed columns to 3 so there are 3 columns for each line */
+    -fx-pref-tile-width: 75; 
+    -fx-hgap: 5; 
+    -fx-vgap: 5; 
+}
+
+.button {
+    -fx-font: bold 16pt "courier new";  /* Set font */
+    -fx-background-color: darkgrey;  /* Set the button background colour to grey */
+    -fx-text-fill: white;  /* Set the text colour to white so its easy to read */
+    -fx-border-color: black;  /* Add a black border around the button */
+    -fx-border-width: 1px;  /* Set the border width to 1px */
+    -fx-border-radius: 5px;  /* Rounded corners for the button */
+    -fx-background-radius: 5px;  /* Background colour also has rounded corners */
+}
